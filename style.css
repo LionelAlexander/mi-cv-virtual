@@ -1,0 +1,166 @@
+body {
+    background: linear-gradient(to right, rgb(83, 60, 74),rgb(85, 1, 53));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(to right, rgb(3, 39, 44),rgb(23, 115, 143));
+    box-shadow: 7px 7px rgb(0, 0, 0);
+    margin: 0 15px 0 10px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding: 3px;
+    border: solid rgb(3, 39, 44);
+    border-bottom: none;
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px 0px 10px;
+    background: linear-gradient(to right, rgb(3, 39, 44),rgb(23, 115, 143));
+    max-width: 100%;
+    height: auto;
+    padding: 1px;
+    box-shadow: 7px 7px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: solid rgb(3, 39, 44);
+    border-top: none;
+
+}
+
+.fotoperfil{
+    flex: 1;
+    padding: 0px;
+    margin: 0;
+}
+.profile {
+    flex: 1;
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+
+.fotoperfil img {
+    width: 300px;
+    height: auto;
+    padding-left: 5px;
+}
+
+.contacto {
+    flex: 1;
+}
+
+h1 {
+    color: aqua;
+    font-style: italic;
+    font-size: 50PX;
+    text-align: center;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+}
+
+.education {
+    flex: 1;
+    padding: 10px;
+    margin: 30px 15px 30px 10px;
+    color: white;
+    background: linear-gradient(to right, rgb(3, 39, 44),rgb(23, 115, 143));
+    border: solid rgb(3, 39, 44);
+    box-shadow: 7px 7px rgb(0, 0, 0);
+}
+
+.experience {
+    flex: 1;
+    margin: 30px 15px 30px 10px;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(to right, rgb(3, 39, 44),rgb(23, 115, 143));
+    border: solid rgb(3, 39, 44);
+    box-shadow: 7px 7px rgb(0, 0, 0)
+}
+
+h2 {
+    color: aqua;
+    font-style: italic;
+    text-decoration-thickness: 2px;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3, dt {
+    color: aqua;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-style: italic;
+    text-decoration-thickness: 2px;
+}
+
+dt{
+    cursor: pointer;
+}
+
+dd {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 3px 0;
+}
+i{
+    color:aqua;  
+    text-shadow: 1px 1px rgb(24, 15, 19);
+}
+
+a{
+    padding: 0 8px;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(3, 39, 44),rgb(23, 115, 143));
+    color: white;
+    border: solid rgb(3, 39, 44);
+    margin: 0 15px 0 10px ;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 7px 7px rgb(0, 0, 0)
+}
+
+@media only screen and (max-width: 400px) {
+
+    .datos {
+        order: 1;
+        margin: 0 3px 8px 1px;
+    }
+
+    .education {
+        order: 2;
+        margin: 4px 3px 8px 1px;
+    }
+    .experience {
+        order: 3;
+        margin: 4px 3px 8px 1px;
+    }
+
+    header {
+        margin:0 3px;
+        padding: 0;
+    }
+    footer {
+        margin: 5px 0 0 3px;
+        padding: 0;
+    }
+}
